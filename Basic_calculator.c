@@ -1,6 +1,5 @@
-#include<stdio.h>
-// upload in the github
-// Home work total 15 complete in beecrowed problem set
+#include<stdio.h
+
 int main(void)
 {
     printf("Enter num1 operator num2\n");
