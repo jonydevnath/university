@@ -1,5 +1,4 @@
 // 2. Write a C program to display the n terms of odd natural numbers and their sum. (Easy)
-// 2. Write a C program to display the n terms of odd natural numbers and their sum. (Easy)
 
 #include <stdio.h>
 
