@@ -20,19 +20,17 @@ int main(void)
     {
         HRA = 0.2 * basic_salary; // percentage calculate: 80 percent *10000 = (80/100)*10000
         DA = 0.8 * basic_salary;
-        gross_salary = basic_salary + HRA + DA;
     }
     else if (basic_salary <= 20000)
     {
         HRA = 0.25 * basic_salary;
         DA = 0.9 * basic_salary;
-        gross_salary = basic_salary + HRA + DA;
     }
     else if (basic_salary > 20000)
     {
         HRA = 0.3 * basic_salary;
         DA = 0.95 * basic_salary;
-        gross_salary = basic_salary + HRA + DA;
     }
+    gross_salary = basic_salary + HRA + DA;
     printf("%.2f\n", gross_salary);
 }
