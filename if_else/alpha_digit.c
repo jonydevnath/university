@@ -4,15 +4,15 @@
 
 int main(void)
 {
-    char charnum;
+    char chr;
     printf("Enter character: ");
-    scanf("%c", &charnum);
+    scanf("%c", &chr);
 
-    if (isalpha(charnum))
+    if (isalpha(chr))
     {
         printf("It's an ahphabat\n");
     }
-    else if (isdigit(charnum))
+    else if (isdigit(chr))
     {
         printf("It's a digit\n");
     }
@@ -24,10 +24,11 @@ int main(void)
 
 /*
     // write a C program to find character alphabat or not
-    char ch;
-    scanf("%c", &ch);
+    char chr;
+    printf("Enter character: ");
+    scanf("%c", &chr);
 
-    if (ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z') // This condition work as like isalpha function
+    if (chr >= 'a' && chr <= 'z' || chr >= 'A' && chr <= 'Z') // This condition work as like isalpha function
     {
         printf("alphabat\n");
     }
@@ -35,5 +36,4 @@ int main(void)
     {
         printf("not alpha\n");
     }
-
 */
