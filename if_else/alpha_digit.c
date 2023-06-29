@@ -5,6 +5,7 @@
 int main(void)
 {
     char charnum;
+    printf("Enter character: ");
     scanf("%c", &charnum);
 
     if (isalpha(charnum))
