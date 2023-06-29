@@ -5,6 +5,7 @@
 int main(void)
 {
     char alpha;
+    printf("Enter a alphabet: ");
     scanf("%c", &alpha);
 
     if (isupper(alpha))
