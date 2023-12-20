@@ -1,10 +1,1 @@
-// what is the biggest defferent beetween CSE and student and other student, Other student try to avoid problem and we are looking for problem and try to sloved it;
 
-// CSE students | programmers looks for problem and try solved it;
-
-// Exam question pattern;
-// can be given in the exam like return 0 error;
-// code will given fix the error;
-// error code given fix the error;
-// question given write the code;
-// write the output of code;
