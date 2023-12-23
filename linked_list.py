@@ -58,8 +58,7 @@ class LinkdedList:
                 c = c + 1
                 current = current.link
         current.info = 300
-        
-  # lab report code  
+          
     def delete_from_begin(self):
         #current = self.head
         self.head = self.head.link
@@ -70,12 +69,17 @@ class LinkdedList:
             current = current.link
         current.link = None
     
-    def delete_from_pos_by_value(self): #in any position by value // HW lab report
+    def delete_from_pos_by_value(self, value):
         current = self.head
-        
-        current.link = None
+        if current != None and current.info == value:
+            self.head = current.link
+            return
 
-# lab report code
+        while current.link != None:
+            if current.link.info == value:
+                current.link = current.link.link
+                return
+            current = current.link
 
 first = Node(10)
 second = Node(20)
@@ -93,5 +97,5 @@ L.update_by_node(3)
 
 L.delete_from_begin()
 L.delete_from_end()
-    
+L.delete_from_pos_by_value(30)
 L.traverse(L.head)
