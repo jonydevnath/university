@@ -98,9 +98,15 @@ update student set email='abcd@gmail.com', dept='EEE', batch=44; --for all email
 update student set email='abc@gmail.com' where id=1001; --for a uniqe value (for a primary key)
 
 --enroll(1001, 101, 'fall-24', 'regular', 'A') updating this row
-update enroll set type='retake', section='B' where id=1001 and sessionId='fall-24' and courseId=101;  --for a uniqe value (for a foreign key)
+update enroll set type='retake', section='B' where id=1001 and sessionId='fall-24' and courseId='cs101';  --for a uniqe value (for a foreign key)
 
 
 -------------------------------------------
 --Delete_Query
+-- Delete the whole Row
 delete from student where id=1001 and nam='jhon';
+
+-- Drop Query
+DROP TABLE table_name;
+DROP DATABASE databasename;
+
